@@ -2,8 +2,8 @@ import Rooter from "./route/Router";
 
 function App() {
   return (
-    <div>
-      <Rooter />
+    <div>   
+      <Rooter></Rooter>
     </div>
   );
 }

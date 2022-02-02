@@ -1,0 +1,37 @@
+@import "../helpers/mixins";
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #d6d6d6;
+
+    @include medium {
+        padding: 1rem 3rem;
+    }
+
+    @include large {
+        padding: 1rem 5rem;
+    }
+
+
+    ul{
+        display: flex;
+        list-style: none;
+
+        li{
+            padding: 0 0.5rem;
+            text-transform: uppercase;
+            @include medium {
+                padding: 0 1.5rem;
+            }
+
+            
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
