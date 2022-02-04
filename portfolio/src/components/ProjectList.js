@@ -17,8 +17,8 @@ const projects = [{
 function ProjectList() {
     return projects.map((project, i) => {
         return (
-            <div className='project-list'>
-                <ProjectCard key={i} name={project.name} desc={project.desc} image={{ src: project.image.src, alt: project.image.alt }} url={{ title: project.url.title, href: project.url.href }} />
+            <div className='project-container' key={i}>
+                <ProjectCard name={project.name} desc={project.desc} image={{ src: project.image.src, alt: project.image.alt }} url={{ title: project.url.title, href: project.url.href }} />
             </div>
         )
     })
