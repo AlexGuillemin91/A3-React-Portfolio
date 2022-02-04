@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from '../img/logo.png';
 
 const Header = () => {
-    return ( 
+    return (
         <>
             <header>
                 <img src={logo} alt="logo"></img>
@@ -11,7 +11,7 @@ const Header = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/projets">Projets</Link>
+                        <Link to="/projects">Projects</Link>
                     </li>
                     <li>
                         <Link to="/cv">Mon CV</Link>
@@ -19,7 +19,7 @@ const Header = () => {
                 </ul>
             </header>
         </>
-     );
+    );
 }
- 
+
 export default Header;
