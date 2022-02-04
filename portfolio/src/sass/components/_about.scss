@@ -1,0 +1,25 @@
+.about{
+    .title{
+        display: flex;
+        justify-content: center;
+
+        h2{
+            margin: 5rem 0;
+            width: fit-content;
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding: 1rem 3rem;
+            border: 5px solid black;
+            text-align: center;
+        }
+    }
+
+    .text{
+        text-align: center;
+
+        @include medium(){
+            width: 60%;
+            margin: auto;
+        }
+    }
+}

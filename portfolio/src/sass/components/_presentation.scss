@@ -1,0 +1,37 @@
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+
+    .image{
+        img{
+            width: 15rem;
+            height: 25rem;
+        }
+    }
+
+    .informations{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2{
+            font-size: 1.5rem;
+
+            @include medium(){
+                font-size: 3rem;
+            }
+        }
+
+        p{
+            margin: 1rem 0;
+            font-size: 1rem;
+
+            @include medium(){
+                font-size: 2rem;
+            }
+        }
+    }
+}
