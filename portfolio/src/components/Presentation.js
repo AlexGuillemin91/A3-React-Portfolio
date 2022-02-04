@@ -4,7 +4,7 @@ const Presentation = () => {
     return ( 
         <div className="presentation">
             <div className='image'>
-                <img src={alex}></img>
+                <img src={alex} alt="alex"></img>
             </div>
             <div className='informations'>
                 <h2>Alex Guillemin</h2>
