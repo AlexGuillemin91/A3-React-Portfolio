@@ -130,7 +130,7 @@ const QuizData = [{
             title:'6,95 €',
         },{
             id: '2',
-            title:'9, 99€',
+            title:'9,99€',
         },{
             id: '3',
             title:'10 €',
@@ -144,7 +144,7 @@ const QuizData = [{
         title: "Combien coûte la promo KFC du mardi ?",
         answers: [{
             id: '1',
-            title:'6, 95 €',
+            title:'6,95 €',
         },{
             id: '2',
             title:'5 €',
@@ -153,7 +153,7 @@ const QuizData = [{
             title:'10 €',
         },{
             id: '4',
-            title:'9, 99 €',
+            title:'9,99 €',
         }],
         correct: '1',
     },{
@@ -531,6 +531,185 @@ const QuizData = [{
             title:"L'ile d'Aix",
         }],
         correct: '1',
+    },{
+        id: "4",
+        title: "Quiz Manga/Anime",
+        desc: "Teste tes connaissances sur les mangas/anime/manhwa",
+        questions: [{
+            id: '1',
+            title: "Quel est le thème principal de l'anime Shigatsu wa kimi no uso ?",
+            answers: [{
+                id: '1',
+                title:'La musique',
+            },{
+                id: '2',
+                title:'Le sport',
+            },{
+                id: '3',
+                title:'Le combat',
+            },{
+                id: '4',
+                title:"L'école",
+            }],
+            correct: '1',
+        },{
+            id: '2',
+            title: "Qui est le héros de The beginning after the end ?",
+            answers: [
+                {
+                    id: '1',
+                    title:'Sung Jin-Woo',
+                },
+                {
+                    id: '2',
+                    title:'Cha Hae-In',
+                },
+                {
+                    id: '3',
+                    title:'Jun Tae-Soo',
+                },
+                {
+                    id: '4',
+                    title:'Arthur',
+                }],
+            correct: '4',  
+        },{
+            id: '3',
+            title: "Qui est le dernier possésseur du titan colossal ?",
+            answers: [{
+                id: '1',
+                title:'Armin',
+            },{
+                id: '2',
+                title:'Bertolt',
+            },{
+                id: '3',
+                title:'Reiner',
+            },{
+                id: '4',
+                title:'Levi',
+            }],
+            correct: '1',
+        },{
+            id: '4',
+            title: "Quel est le héros de solo leveling",
+            answers: [{
+                id: '1',
+                title:'Sung Jin-Woo',
+            },{
+                id: '2',
+                title:'Cha Hae-In',
+            },{
+                id: '3',
+                title:'Jun Tae-Soo',
+            },{
+                id: '4',
+                title:'Arthur',
+            }],
+            correct: '1',
+        },{
+            id: '5',
+            title: "Qui fut le premier compagnon de Luffy dans One piece ?",
+            answers: [{
+                id: '1',
+                title:'Sanji',
+            },{
+                id: '2',
+                title:'Nami',
+            },{
+                id: '3',
+                title:'Zoro',
+            },{
+                id: '4',
+                title:'Ussop',
+            }],
+            correct: '3',
+        },{
+            id: '6',
+            title: "Dans Kimetsu no yaiba, combien y'a-t-il de piliers? (avant le film)",
+            answers: [{
+                id: '1',
+                title:'9',
+            },{
+                id: '2',
+                title:'11',
+            },{
+                id: '3',
+                title:'10',
+            },{
+                id: '4',
+                title:'12',
+            }],
+            correct: '1',
+        },{
+            id: '7',
+            title: "Dans 'The great mage returns after 4000 years, après combien d'années le héros revient-il ?",
+            answers: [{
+                id: '1',
+                title:'4000 ans',
+            },{
+                id: '2',
+                title:'3995 ans',
+            },{
+                id: '3',
+                title:'4005 ans',
+            },{
+                id: '4',
+                title:'3998 ans',
+            }],
+            correct: '1',
+        },{
+            id: '8',
+            title: "De quel pays provient les manhwas ?",
+            answers: [{
+                id: '1',
+                title:'La Corée du sud',
+            },{
+                id: '2',
+                title:'Le Japon',
+            },{
+                id: '3',
+                title:'La Chine',
+            },{
+                id: '4',
+                title:'Le Vietnam',
+            }],
+            correct: '1',
+        },{
+            id: '9',
+            title: "Dans The promised neverland quel est le numéro d'Emma",
+            answers: [{
+                id: '1',
+                title:'63194',
+            },{
+                id: '2',
+                title:'81194',
+            },{
+                id: '3',
+                title:'22194',
+            },{
+                id: '4',
+                title:'34194',
+            }],
+            correct: '1',
+        },{
+            id: '10',
+            title: "Dans haikyu, à quel poste joue Hinata Shoyo ?",
+            answers: [{
+                id: '1',
+                title:'central',
+            },{
+                id: '2',
+                title:'passeur',
+            },{
+                id: '3',
+                title:'pointu',
+            },{
+                id: '4',
+                title:'libéro',
+            }],
+            correct: '1',
+        }]
     }]
 }]
 
