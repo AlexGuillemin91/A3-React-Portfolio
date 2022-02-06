@@ -1,7 +1,7 @@
 const QuizData = [{
     id: "1",
     title: "Quiz KFC",
-    desc: "testez vos connaissances en matuère de kfc",
+    desc: "testez vos connaissances en matière de kfc",
     questions: [{
         id: '1',
         title: "Quel est le maximum de tenders possible dans un bucket ?",
@@ -350,6 +350,185 @@ const QuizData = [{
         },{
             id: '4',
             title:'11',
+        }],
+        correct: '1',
+    }]
+},{
+    id: "3",
+    title: "Quiz sur moi",
+    desc: "Réponds et apprends à me connaitre ou teste toi",
+    questions: [{
+        id: '1',
+        title: "Quel est mon fast-food préféré ?",
+        answers: [{
+            id: '1',
+            title:'KFC',
+        },{
+            id: '2',
+            title:'Mc Do',
+        },{
+            id: '3',
+            title:'Burger King',
+        },{
+            id: '4',
+            title:'Quick',
+        }],
+        correct: '1',
+    },{
+        id: '2',
+        title: "Quel est le sport que je pratique le plus actuellement ?",
+        answers: [
+            {
+                id: '1',
+                title:'Le volley',
+            },
+            {
+                id: '2',
+                title:'Le basket',
+            },
+            {
+                id: '3',
+                title:'La musculation',
+            },
+            {
+                id: '4',
+                title:'La danse',
+            }],
+        correct: '1',  
+    },{
+        id: '3',
+        title: "Quel est le sport que je pratiquais juste avant mon sport actuel ? ",
+        answers: [{
+            id: '1',
+            title:'Le volley',
+        },{
+            id: '2',
+            title:'Le basket',
+        },{
+            id: '3',
+            title:'Le trampoline',
+        },{
+            id: '4',
+            title:'Le badminton',
+        }],
+        correct: '2',
+    },{
+        id: '4',
+        title: "Quel est mon record de kfc en 1 an ?",
+        answers: [{
+            id: '1',
+            title:'100',
+        },{
+            id: '2',
+            title:'92',
+        },{
+            id: '3',
+            title:'98',
+        },{
+            id: '4',
+            title:'104',
+        }],
+        correct: '1',
+    },{
+        id: '5',
+        title: "Quel est mon anime préféré ?",
+        answers: [{
+            id: '1',
+            title:'Shigatsu wa kimi no uso',
+        },{
+            id: '2',
+            title:'Haikyu',
+        },{
+            id: '3',
+            title:'One piece',
+        },{
+            id: '4',
+            title:'Erased',
+        }],
+        correct: '1',
+    },{
+        id: '6',
+        title: "Quelle serait la première chose que je ferai si je gagnais à l'euromillion ?",
+        answers: [{
+            id: '1',
+            title:'Acheter un gymnase',
+        },{
+            id: '2',
+            title:'Acheter une enseigne KFC',
+        },{
+            id: '3',
+            title:'Partir en voyage loin',
+        },{
+            id: '4',
+            title:'Donner à des associations caritatives',
+        }],
+        correct: '1',
+    },{
+        id: '7',
+        title: "Quelle est mon activité principale sur mon téléphone ?",
+        answers: [{
+            id: '1',
+            title:'La lecture',
+        },{
+            id: '2',
+            title:'Les jeux',
+        },{
+            id: '3',
+            title:'Les réseaux',
+        },{
+            id: '4',
+            title:'Le travail',
+        }],
+        correct: '1',
+    },{
+        id: '8',
+        title: "Quel est mon deuxième prénom ?",
+        answers: [{
+            id: '1',
+            title:"y'a pas de 2ème prénom",
+        },{
+            id: '2',
+            title:'Tom',
+        },{
+            id: '3',
+            title:'Nicolas',
+        },{
+            id: '4',
+            title:'Thomas',
+        }],
+        correct: '1',
+    },{
+        id: '9',
+        title: "Quelle est ma taille ?",
+        answers: [{
+            id: '1',
+            title:'1m86',
+        },{
+            id: '2',
+            title:'1m87',
+        },{
+            id: '3',
+            title:'1m84',
+        },{
+            id: '4',
+            title:'1m89',
+        }],
+        correct: '1',
+    },{
+        id: '10',
+        title: "Où allais-je à chaque vacances scolaires ?",
+        answers: [{
+            id: '1',
+            title:"L'ile de ré",
+        },{
+            id: '2',
+            title:'La Rochelle',
+        },{
+            id: '3',
+            title:'Lognes',
+        },{
+            id: '4',
+            title:"L'ile d'Aix",
         }],
         correct: '1',
     }]

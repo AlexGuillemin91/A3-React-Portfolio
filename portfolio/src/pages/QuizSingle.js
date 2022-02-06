@@ -29,7 +29,7 @@ const QuizSingle = () => {
     return quizz ?
         <div className="question-container">
             <Header />
-            <h2>{quizz.title} {id} </h2>
+            <h2>{quizz.title} </h2>
             {actualQuestion < quizz.questions.length ?
                 <Question title={quizz.questions[actualQuestion].title}
                     answers={quizz.questions[actualQuestion].answers}
