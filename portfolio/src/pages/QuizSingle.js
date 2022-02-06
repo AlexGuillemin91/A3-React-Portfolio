@@ -27,7 +27,7 @@ const QuizSingle = () => {
     }
 
     return quizz ?
-        <div>
+        <div className="question-container">
             <Header />
             <h2>{quizz.title} {id} </h2>
             {actualQuestion < quizz.questions.length ?

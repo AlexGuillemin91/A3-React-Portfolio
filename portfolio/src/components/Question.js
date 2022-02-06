@@ -10,13 +10,15 @@ const Question = ({title, answers, correct, verify}) => {
         }
         return new_arr
     }
-    
+
     answers = shuffleArray(answers);
 
     return (
-        <div>
+        <div className="question">
             <h3>{title}</h3>
-            <AnswerList answers={answers} isCorrect={correct} verify={verify} />
+            <div className="answers-list">
+                <AnswerList answers={answers} isCorrect={correct} verify={verify} />
+            </div>
         </div>
     );
 }

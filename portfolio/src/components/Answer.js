@@ -1,8 +1,8 @@
 const Answer = ({title, id, isCorrect, verify}) => {
     return (
-        <button onClick={() => verify(id, isCorrect)}>
+        <div onClick={() => verify(id, isCorrect)} className="answer">
             {title}
-        </button>
+        </div>
     );
 }
 
